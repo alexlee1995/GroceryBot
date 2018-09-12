@@ -29,6 +29,16 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         //args = args.splice(1);
         switch(cmd) {
             // !ping
+            case 'help':
+                var help = "Commands:\n"
+                help += "!add [item] [dateIn]\n";
+                help += "!remove [item]\n"
+                help += "!list"
+                bot.sendMessage({
+                    to: channelID,
+                    message: help
+                });
+                break;
             case 'ping':
                 var toSend = args[1];
                 bot.sendMessage({

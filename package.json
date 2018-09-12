@@ -1,7 +1,7 @@
 {
-  "name": "WeatherBot",
+  "name": "GroceryBot",
   "version": "1.0.0",
-  "description": "Tells you the weather",
+  "description": "Keeps a grocery list",
   "main": "bot.js",
   "author": "Alexander Lee",
   "dependencies": {
