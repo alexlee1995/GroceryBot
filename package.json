@@ -1,0 +1,11 @@
+{
+  "name": "WeatherBot",
+  "version": "1.0.0",
+  "description": "Tells you the weather",
+  "main": "bot.js",
+  "author": "Alexander Lee",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.1.0"
+  }
+}
